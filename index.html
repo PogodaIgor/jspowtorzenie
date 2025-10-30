@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body id="body">
@@ -11,8 +12,8 @@
     <button id="niebieski" onclick="niebieski()">Niebieski</button>
     <button id="zielony" onclick="zielony()">Zielony</button>
     <h3>Zadanie 2</h3>
-    <p id="tekst" style="display: block" style="display: none">Igor Pogoda</p>
-    <button id="pokaz" onclick="pokaz()">Pokaż/Ukryj</button>
+    <p id="tekst">Igor Pogoda</p>
+    <button id="pokaz" onclick="pokaz()">Ukryj</button>
     <h3>Zadanie 3</h3>
     <p id="licz">0</p>
     <button id="licznik" onclick="licz()">Kliknij mnie!</button>
@@ -21,7 +22,16 @@
     <button id="up" onclick="wieksza()">Większa czcionka</button>
     <button id="down" onclick="mniejsza()">Mniejsza czcionka</button>
     <h3>Zadanie 5</h3>
-    <img src="pies.jpg" id="pies" onmouseover="ramka()" onmouseout="nramka()" />
+    <img id="pies" src="pies.jpg" onmouseover="ramka()" onmouseout="nramka()" />
+    <h2>Zadanie 6</h2>
+    <div id="div1"></div>
+    <div id="aha">
+      <div id="div2" onclick="red()"></div>
+      <div id="div3" onclick="blue()"></div>
+      <div id="div4" onclick="yellow()"></div>
+      <div id="div5" onclick="purple()"></div>
+      <div id="div6" onclick="green()"></div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
